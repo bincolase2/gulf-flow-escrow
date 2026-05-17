@@ -1,0 +1,11 @@
+{
+  "contract": "0x48Eebc62AFEe8f7379a403E6cddC58b5F907b6a6",
+  "dealId": "0xf113a5af643cd2c97264a626c4e7d7282ba2ec05a9e81d1ccf86bac3ab2a73a3",
+  "supplier": "0x7746B8dA941E259f5edf39836faDc2B5E52E1B4e",
+  "invoiceRef": "INV-GCC-2048",
+  "documentHash": "0x43cada6e173164156b86510f614bf84cb60175bf3d953dc7f730c1bf615408f6",
+  "txHash": "0xe4478a26fdffe22eef770d42bf90736d6117866c48f0095ce1014d1a2828f001",
+  "blockNumber": 42647538,
+  "explorer": "https://testnet.arcscan.app/tx/0xe4478a26fdffe22eef770d42bf90736d6117866c48f0095ce1014d1a2828f001",
+  "createdAt": "2026-05-17T09:01:03.723Z"
+}

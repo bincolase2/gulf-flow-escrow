@@ -1,0 +1,10 @@
+{
+  "network": "arcTestnet",
+  "chainId": 5042002,
+  "contract": "GulfFlowEscrowPolicy",
+  "address": "0x48Eebc62AFEe8f7379a403E6cddC58b5F907b6a6",
+  "deployer": "0x2B256BCbFC0E2c0Fe27ad54Ef2363Be524C394fe",
+  "txHash": "0x002395a127e7b0d92f842bfe51f6f40796cc0571bdd1b8466887131a728c6326",
+  "explorer": "https://testnet.arcscan.app/tx/0x002395a127e7b0d92f842bfe51f6f40796cc0571bdd1b8466887131a728c6326",
+  "deployedAt": "2026-05-17T08:38:47.159Z"
+}

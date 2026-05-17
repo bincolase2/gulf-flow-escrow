@@ -1,0 +1,36 @@
+{
+  "name": "gulf-flow-escrow",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test:demo": "tsx scripts/demo-flow.ts",
+    "contracts:compile": "hardhat compile",
+    "contracts:deploy:arc": "hardhat run scripts/deploy-escrow.ts --network arcTestnet",
+    "contracts:lock-demo": "hardhat run scripts/lock-demo-deal.ts --network arcTestnet",
+    "contracts:test:onchain": "hardhat run scripts/full-onchain-test.ts --network arcTestnet"
+  },
+  "dependencies": {
+    "ethers": "^6.16.0",
+    "next": "16.2.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.1.2",
+    "@nomicfoundation/hardhat-toolbox": "^6.1.2",
+    "@openzeppelin/contracts": "^5.6.1",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "dotenv": "^17.4.2",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "hardhat": "^2.28.6",
+    "tsx": "^4.22.1",
+    "typescript": "^5"
+  }
+}

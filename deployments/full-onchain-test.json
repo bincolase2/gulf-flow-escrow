@@ -1,0 +1,77 @@
+{
+  "contract": "0x48Eebc62AFEe8f7379a403E6cddC58b5F907b6a6",
+  "tester": "0x7746B8dA941E259f5edf39836faDc2B5E52E1B4e",
+  "supplier": "0x7746B8dA941E259f5edf39836faDc2B5E52E1B4e",
+  "dealId": "0xfa0f068d1d3fa4398dae7cf837cfdb8359f93088e8b420c55dc0f1d1aade9f78",
+  "invoiceRef": "INV-GCC-FULL-1779008573787",
+  "documentHash": "0x5f83a9a84c743f347bc6b5e89f02004c0b3fc6f797d0922248aac2cb658df24e",
+  "txs": [
+    {
+      "label": "lockDeal",
+      "hash": "0x6ae6a5320333a72b9ba0d23f4584fb50c5793e65dbe3bab578b7bad992f6662c",
+      "blockNumber": 42647758,
+      "explorer": "https://testnet.arcscan.app/tx/0x6ae6a5320333a72b9ba0d23f4584fb50c5793e65dbe3bab578b7bad992f6662c"
+    },
+    {
+      "label": "approveDocuments",
+      "hash": "0x55b826a1975c8eeb3ff4e3e74492033a57b53e5d7972daabdb072e1bfbad2d2d",
+      "blockNumber": 42647762,
+      "explorer": "https://testnet.arcscan.app/tx/0x55b826a1975c8eeb3ff4e3e74492033a57b53e5d7972daabdb072e1bfbad2d2d"
+    },
+    {
+      "label": "releaseAdvance",
+      "hash": "0xa7a2dfc0fac59e53b55812f162f6759682994d3ce0a2d8a88242a5b615132acf",
+      "blockNumber": 42647766,
+      "explorer": "https://testnet.arcscan.app/tx/0xa7a2dfc0fac59e53b55812f162f6759682994d3ce0a2d8a88242a5b615132acf"
+    },
+    {
+      "label": "completeDeal",
+      "hash": "0xd6da94ad57559f69bc2aae47bd4b4c87961b30e1397c66c006a5afedfe502bdb",
+      "blockNumber": 42647769,
+      "explorer": "https://testnet.arcscan.app/tx/0xd6da94ad57559f69bc2aae47bd4b4c87961b30e1397c66c006a5afedfe502bdb"
+    }
+  ],
+  "states": {
+    "afterLock": [
+      "0x7746B8dA941E259f5edf39836faDc2B5E52E1B4e",
+      "0x7746B8dA941E259f5edf39836faDc2B5E52E1B4e",
+      "18420000000",
+      "7368000000",
+      "0x5f83a9a84c743f347bc6b5e89f02004c0b3fc6f797d0922248aac2cb658df24e",
+      "INV-GCC-FULL-1779008573787",
+      "1",
+      "1779008575"
+    ],
+    "afterApprove": [
+      "0x7746B8dA941E259f5edf39836faDc2B5E52E1B4e",
+      "0x7746B8dA941E259f5edf39836faDc2B5E52E1B4e",
+      "18420000000",
+      "7368000000",
+      "0x5f83a9a84c743f347bc6b5e89f02004c0b3fc6f797d0922248aac2cb658df24e",
+      "INV-GCC-FULL-1779008573787",
+      "2",
+      "1779008575"
+    ],
+    "afterRelease": [
+      "0x7746B8dA941E259f5edf39836faDc2B5E52E1B4e",
+      "0x7746B8dA941E259f5edf39836faDc2B5E52E1B4e",
+      "18420000000",
+      "7368000000",
+      "0x5f83a9a84c743f347bc6b5e89f02004c0b3fc6f797d0922248aac2cb658df24e",
+      "INV-GCC-FULL-1779008573787",
+      "3",
+      "1779008575"
+    ],
+    "afterComplete": [
+      "0x7746B8dA941E259f5edf39836faDc2B5E52E1B4e",
+      "0x7746B8dA941E259f5edf39836faDc2B5E52E1B4e",
+      "18420000000",
+      "7368000000",
+      "0x5f83a9a84c743f347bc6b5e89f02004c0b3fc6f797d0922248aac2cb658df24e",
+      "INV-GCC-FULL-1779008573787",
+      "4",
+      "1779008575"
+    ]
+  },
+  "completedAt": "2026-05-17T09:03:02.056Z"
+}
